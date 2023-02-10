@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountElement.cs" />
     <Compile Include="LengthOfArray.cs" />
     <Compile Include="MaxAndMin.cs" />
     <Compile Include="NegativeNumber.cs" />
