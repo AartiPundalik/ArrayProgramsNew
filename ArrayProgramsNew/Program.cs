@@ -11,7 +11,7 @@ namespace ArrayProgramsNew
         static void Main(string[] args)
         {
 
-            Console.WriteLine("1 ArrayLength");
+            Console.WriteLine("1 ArrayLength \n  2 MaxAndMin");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -20,6 +20,11 @@ namespace ArrayProgramsNew
                 case 1:
                     LengthOfArray arrayLength = new LengthOfArray();
                     arrayLength.CheckLength();
+                    break;
+
+                    case 2:
+                    MaxAndMin MaxAndMin = new MaxAndMin();
+                    MaxAndMin.MaxAndMinArray();
                     break;
 
             }
