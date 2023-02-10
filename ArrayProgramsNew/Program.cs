@@ -11,7 +11,7 @@ namespace ArrayProgramsNew
         static void Main(string[] args)
         {
 
-            Console.WriteLine("1 ArrayLength \n  2 MaxAndMin");
+            Console.WriteLine("1 ArrayLength \n  2 MaxAndMin \n 3 NegativeNumber");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -25,6 +25,11 @@ namespace ArrayProgramsNew
                     case 2:
                     MaxAndMin MaxAndMin = new MaxAndMin();
                     MaxAndMin.MaxAndMinArray();
+                    break;
+
+                    case 3:
+                    NegativeNumber PrintNegative = new NegativeNumber();
+                    PrintNegative.CheckNegative();
                     break;
 
             }

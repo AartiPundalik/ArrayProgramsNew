@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="LengthOfArray.cs" />
     <Compile Include="MaxAndMin.cs" />
+    <Compile Include="NegativeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumOfElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
