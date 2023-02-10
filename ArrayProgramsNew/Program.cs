@@ -11,7 +11,7 @@ namespace ArrayProgramsNew
         static void Main(string[] args)
         {
 
-            Console.WriteLine("1 ArrayLength \n  2 MaxAndMin \n 3 NegativeNumber");
+            Console.WriteLine("1 ArrayLength \n  2 MaxAndMin \n 3 NegativeNumber  \n 4 SumOfElement");
             Console.WriteLine("choose the option");
             int opiton = Convert.ToInt32(Console.ReadLine());
 
@@ -31,6 +31,12 @@ namespace ArrayProgramsNew
                     NegativeNumber PrintNegative = new NegativeNumber();
                     PrintNegative.CheckNegative();
                     break;
+
+                    case 4:
+                    SumOfElement CheckSum = new SumOfElement();
+                    CheckSum.PrintSum();
+                    break;
+
 
             }
             Console.ReadLine();
